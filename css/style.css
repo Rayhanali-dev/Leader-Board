@@ -80,6 +80,10 @@ hr {
     gap: 33px;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 .nav-menu .nav-link {
     color: #fff;
 }
@@ -191,6 +195,50 @@ hr {
 .course img {
     width: 100%;
     height: 104px;
+}
+
+.course-title {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #1E1E1E;
+}
+
+.course-author {
+    font-size: 15px;
+    color: #ED6B4F;
+    margin-bottom: 10px;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course-info i {
+    color: #FFC014;
+    font-size: 14px;
+}
+
+.course-info a {
+    color: #A2A2A2;
+}
+
+.course-info .last-star {
+    color: #A2A2A2;
+    margin-right: 5px;
+}
+
+.course-info span {
+    background: #FEE5DF;
+    padding: 5px 8px;
+    border-radius: 30px;
+    color: #ED6B4F;
+}
+
+.course-info span i {
+    color: #ED6B4F;
 }
 /* latest course part end */
 
